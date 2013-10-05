@@ -1738,30 +1738,44 @@
         },
          {
             "id":"t_pedestal_temple",
-            "rotates":false
+            "bg":2,
+            "fg":446,
+           "rotates":false
         },
         {
             "id":"t_rock_red",
+            "bg":3,
+            "fg":429,
             "rotates":false
         },
         {
             "id":"t_rock_green",
+            "bg":3,
+            "fg":430,
             "rotates":false
         },
         {
             "id":"t_rock_blue",
+            "bg":3,
+            "fg":431,
             "rotates":false
         },
         {
             "id":"t_floor_red",
+            "bg":11,
+            "fg":429,
             "rotates":false
         },
         {
             "id":"t_floor_green",
+            "bg":11,
+            "fg":430,
             "rotates":false
         },
         {
             "id":"t_floor_blue",
+            "bg":11,
+            "fg":431,
             "rotates":false
         },
         {
@@ -1800,13 +1814,13 @@
             "fg":1610,
             "rotates":false
         },
-		{
-			"id": "tr_makeshift_funnel",
-			"fg":1611,
-			"bg":-1,
-			"rotates":false,
-			"multitile":false
-		},
+	{
+		"id": "tr_makeshift_funnel",
+		"fg":1611,
+		"bg":-1,
+		"rotates":false,
+		"multitile":false
+	},
         {
             "id":"tr_rollmat",
  		"fg":1578,
@@ -1889,14 +1903,17 @@
         },
         {
             "id":"tr_telepad",
+  		"fg":206,
             "rotates":false
         },
         {
             "id":"tr_goo",
+		"fg":187,
             "rotates":false
         },
         {
             "id":"tr_dissector",
+  		"fg":207,
             "rotates":false
         },
         {
@@ -1920,6 +1937,7 @@
         },
         {
             "id":"tr_portal",
+  		"fg":206,
             "rotates":false
         },
         {
@@ -1935,11 +1953,13 @@
         },
         {
             "id":"tr_temple_flood",
-            "rotates":false
+ 		"fg":175,
+           "rotates":false
         },
         {
             "id":"tr_temple_toggle",
-            "rotates":false
+ 		"fg":175,
+           "rotates":false
         },
         {
             "id":"tr_glow",
@@ -1947,10 +1967,11 @@
         },
         {
             "id":"tr_hum",
-            "rotates":false
+           "rotates":false
         },
         {
             "id":"tr_shadow",
+		"fg":199,
             "rotates":false
         },
         {
@@ -1959,6 +1980,7 @@
         },
         {
             "id":"tr_snake",
+		"fg":199,
             "rotates":false
         },
         {
@@ -2110,6 +2132,8 @@
         },
         {
             "id":"fd_flame_burst",
+            "bg":198,
+            "fg":182,
             "rotates":false
         },
         {
@@ -3042,7 +3066,7 @@
         },
         {
             "id":"f_desk",
-            "fg":440,
+            "fg":445,
             "multitile":true,
             "additional_tiles":
             [
@@ -3097,7 +3121,7 @@
         },
         {
             "id":"f_table",
-            "fg":440,
+            "fg":445,
             "multitile":true,
             "additional_tiles":
             [
@@ -3147,7 +3171,7 @@
         },
         {
             "id":"f_counter",
-            "fg":55,
+            "fg":60,
             "multitile":true,
             "additional_tiles":
             [
@@ -3397,344 +3421,329 @@
 			"rotates":false,
 			"multitile":false
 		},
-		{
-            "id":"seat",
+	{
+            "id":"vp_seat",
             "fg":124,
             "rotates":true
         },
         {
-            "id":"saddle",
+            "id":"vp_saddle",
             "fg":125,
             "rotates":true
         },
         {
-            "id":"bed",
+            "id":"vp_bed",
             "fg":126,
             "rotates":true
         },
         {
-            "id":"frame_horizontal",
+            "id":"vp_frame_h",
             "fg":96,
             "rotates":true
         },
         {
-            "id":"frame_vertical",
+            "id":"vp_frame_v",
             "fg":97,
             "rotates":true
         },
         {
-            "id":"frame_cross",
+            "id":"vp_frame_c",
              "fg":98,
            "rotates":true
         },
         {
-            "id":"frame_nw",
+            "id":"vp_frame_y",
             "fg":99,
             "rotates":true
         },
         {
-            "id":"frame_ne",
+            "id":"vp_frame_u",
             "fg":100,
 		"rotates":true
         },
         {
-            "id":"frame_se",
+            "id":"vp_frame_n",
             "fg":101,
             "rotates":true
         },
         {
-            "id":"frame_sw",
+            "id":"vp_frame_b",
             "fg":102,
             "rotates":true
         },
         {
-            "id":"frame_horizontal_2",
+            "id":"vp_frame_h2",
             "fg":103,
             "rotates":true
         },
         {
-            "id":"frame_vertical_2",
+            "id":"vp_frame_v2",
             "fg":104,
             "rotates":true
         },
         {
-            "id":"frame_cover",
+            "id":"vp_frame_cover",
             "fg":105,
             "rotates":true
         },
         {
-            "id":"frame_handle",
+            "id":"vp_frame_handle",
             "fg":106,
             "rotates":true
         },
         {
-            "id":"board_horizontal",
+            "id":"vp_board_h",
             "fg":113,
             "rotates":true
         },
         {
-            "id":"board_vertical",
+            "id":"vp_board_v",
             "fg":114,
             "rotates":true
         },
         {
-            "id":"board_nw",
+            "id":"vp_board_y",
             "fg":115,
             "rotates":true
         },
         {
-            "id":"board_ne",
+            "id":"vp_board_u",
             "fg":116,
             "rotates":true
         },
         {
-            "id":"board_se",
+            "id":"vp_board_n",
             "fg":117,
             "rotates":true
         },
         {
-            "id":"board_sw",
+            "id":"vp_board_b",
             "fg":118,
             "rotates":true
         },
         {
-            "id":"aisle_horizontal",
+            "id":"vp_aisle_h2",
             "fg":155,
             "rotates":true
         },
         {
-            "id":"aisle_vertical",
+            "id":"vp_aisle_v2",
             "fg":156,
             "rotates":true
         },
         {
-            "id":"trunk_floor",
+            "id":"vp_floor_trunk",
             "fg":111,
             "rotates":true
         },
         {
-            "id":"roof",
+            "id":"vp_roof",
             "fg":110,
             "rotates":true
         },
         {
-            "id":"door",
+            "id":"vp_door",
             "fg":107,
             "rotates":true
         },
         {
-            "id":"door_opaque",
+            "id":"vp_door_o",
             "fg":108,
             "rotates":true
         },
-		{
-			"id":"door_trunk",
-			"fg":107,
-			"rotates":true
-		},
-		{
-			"id":"door_shutter",
-			"fg":107,
-			"rotates":true
-		},
-		{
-			"id":"door_sliding",
-			"fg":107,
-			"rotates":true
-		},
         {
-            "id":"door_internal",
+            "id":"vp_door_i",
             "fg":109,
             "rotates":true
         },
         {
-            "id":"window",
+            "id":"vp_window",
             "fg":112,
             "rotates":true
         },
         {
-            "id":"blade_horizontal",
+            "id":"vp_blade_h",
             "fg":151,
             "rotates":true
         },
         {
-            "id":"blade_vertical",
+            "id":"vp_blade_v",
             "fg":152,
             "rotates":true
         },
         {
-            "id":"spike",
+            "id":"vp_spike_h",
             "fg":153,
             "rotates":true
         },
         {
-            "id":"wheel",
+            "id":"vp_wheel",
             "fg":119,
             "rotates":true
         },
         {
-            "id":"wheel_wide",
+            "id":"vp_wheel_wide",
             "fg":120,
             "rotates":true
         },
  		{
-			"id": "wheel_underbody",
+			"id": "vp_wheel_wide_under",
             "fg":164,
 			"bg":-1,
 			"rotates":true,
 			"multitile":false
 		},
        {
-            "id":"wheel_bicycle",
+            "id":"vp_wheel_bicycle",
             "fg":121,
             "rotates":true
         },
         {
-            "id":"wheel_motorbike",
+            "id":"vp_wheel_motorbike",
             "fg":122,
             "rotates":true
         },
         {
-            "id":"wheel_small",
+            "id":"vp_wheel_small",
             "fg":123,
             "rotates":true
         },
 		{
-			"id": "wheel_caster",
+			"id": "vp_wheel_caster",
             "fg":166,
 			"bg":-1,
 			"rotates":true,
 			"multitile":false
 		},
         {
-            "id":"engine_1cyl",
+            "id":"vp_engine_gas_1cyl",
             "fg":128,
             "rotates":true
         },
         {
-            "id":"engine_vtwin",
+            "id":"vp_engine_gas_v2",
             "fg":129,
             "rotates":true
         },
         {
-            "id":"engine_inline4",
+            "id":"vp_engine_gas_i4",
             "fg":130,
             "rotates":true
         },
         {
-            "id":"engine_v6",
+            "id":"vp_engine_gas_v6",
             "fg":131,
             "rotates":true
         },
         {
-            "id":"engine_v8",
+            "id":"vp_engine_gas_v8",
             "fg":132,
             "rotates":true
         },
         {
-            "id":"engine_electric",
+            "id":"vp_engine_motor",
             "fg":133,
             "rotates":true
         },
         {
-            "id":"engine_electric_large",
+            "id":"vp_engine_motor_large",
             "fg":134,
             "rotates":true
         },
         {
-            "id":"engine_plasma",
+            "id":"vp_engine_plasma",
             "fg":135,
             "rotates":true
         },
         {
-            "id":"foot_pedals",
+            "id":"vp_engine_foot_crank",
             "fg":136,
             "rotates":true
         },
         {
-            "id":"gas_tank",
+            "id":"vp_fuel_tank_gas",
             "fg":137,
             "rotates":true
         },
         {
-            "id":"storage_battery",
+            "id":"vp_fuel_tank_batt",
             "fg":138,
             "rotates":true
         },
         {
-            "id":"minireactor",
+            "id":"vp_fuel_tank_plut",
             "fg":139,
             "rotates":true
         },
         {
-            "id":"hydrogen_tank",
+            "id":"vp_fuel_tank_hydrogen",
             "fg":140,
             "rotates":true
         },
         {
-            "id":"water_tank",
+            "id":"vp_fuel_tank_water",
             "fg":141,
             "rotates":true
         },
         {
-            "id":"trunk",
+            "id":"vp_cargo_trunk",
             "fg":149,
             "rotates":true
         },
         {
-            "id":"box",
+            "id":"vp_cargo_box",
             "fg":150,
             "rotates":true
         },
         {
-            "id":"controls",
+            "id":"vp_controls",
             "fg":143,
             "rotates":true
         },
         {
-            "id":"muffler",
+            "id":"vp_muffler",
             "fg":142,
             "rotates":true
         },
         {
-            "id":"seatbelt",
+            "id":"vp_seatbelt",
             "fg":127,
             "rotates":true
         },
         {
-            "id":"solar_panel",
+            "id":"vp_solar_panel",
             "fg":157,
             "rotates":true
         },
         {
-            "id":"kitchen_unit",
+            "id":"vp_kitchen_unit",
             "fg":158,
             "rotates":true
         },
 		{
-			"id": "welding_rig",
+			"id": "vp_weldrig",
             "fg":159,
 			"bg":-1,
 			"rotates":false,
 			"multitile":false
 		},
         {
-            "id":"m249",
+            "id":"vp_m249",
             "fg":160,
             "rotates":true
         },
         {
-            "id":"flamethrower",
+            "id":"vp_flamethrower",
             "fg":161,
             "rotates":true
         },
         {
-            "id":"plasma_gun",
+            "id":"vp_plasmagun",
             "fg":162,
             "rotates":true
         },
  		{
-			"id": "fusion_gun",
+			"id": "vp_fusiongun",
             "fg":163,
 			"bg":-1,
 			"rotates":false,
@@ -3742,27 +3751,27 @@
 		},
 
        {
-            "id":"plating_steel",
+            "id":"vp_steel_plate",
             "fg":144,
             "rotates":true
         },
         {
-            "id":"plating_superalloy",
+            "id":"vp_superalloy_plate",
             "fg":145,
             "rotates":true
         },
         {
-            "id":"plating_spiked",
+            "id":"vp_spiked_plate",
             "fg":146,
             "rotates":true
         },
         {
-            "id":"plating_hard",
+            "id":"vp_hard_plate",
             "fg":147,
             "rotates":true
         },
         {
-            "id":"headlight",
+            "id":"vp_head_light",
             "fg":148,
             "rotates":true
         },

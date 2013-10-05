@@ -109,19 +109,6 @@ void game::draw_line(const int x, const int y, std::vector<point> vPoint)
     mvwputch(w_terrain, vPoint[vPoint.size()-1].y + VIEWY - u.posy - u.view_offset_y,
                         vPoint[vPoint.size()-1].x + VIEWX - u.posx - u.view_offset_x, c_white, 'X');
 }
-
-void game::draw_line(const int x, const int y, std::vector<point> vPoint, const point center){
-
-    for (int i = 1; i < vPoint.size(); i++)
-    {
-        m.drawsq(w_terrain, u, vPoint[i-1].x, vPoint[i-1].y, true, true, center.x, center.y);
-    }
-
-    mvwputch(w_terrain, vPoint[vPoint.size()-1].y + VIEWY - u.posy - u.view_offset_y,
-                        vPoint[vPoint.size()-1].x + VIEWX - u.posx - u.view_offset_x, c_white, 'X');
-
-}
-
 //*/
 void game::draw_weather(weather_printable wPrint)
 {
